@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #8995ae;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(0, 0, 62);
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    color: rgb(119, 119, 119);
+    font-size: 1.1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d3d7e7;
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    padding: 20px;
+    gap: 20px;
+}
+
+#about, #research {
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+#about h2, #research h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ced3e0;
+}
+
+#research ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#research ul li {
+    margin-bottom: 5px;
+}
+
+div#content {
+    flex: 2.5;
+    padding-right: 5%;
+    border-right: 1px solid #ddd;
+}
+
+#side-info {
+    flex: 1.5;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+#side-info a {
+    text-decoration: none;
+    color: #9098ac;
+}
+
+#team h2, #contact h2 {
+    color: #91a6c5;
+    font-size: 1.4em;
+}
+
+#team h3 {
+    font-size: 1.1em;
+    color: #4f5878;
+    margin-bottom: 5px;
+    margin: 15px 0px 10px 0px;
+    /*background-color: red;*/
+}
+
+#team ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    color: #535456;
+}
+
+#team p {
+    margin: 2.4px;
+}
+
+#contact {
+    margin-top: 20px
+}
+
+#contact p {
+    margin-top: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: #141a29;
+    color: #6b6d74;
+    font-size: 0.9em;
+}
